@@ -3,6 +3,7 @@
     "description": "Helper for Kirby 3 to build attributes based on conditions, like conditionally adding classes to an element.",
     "type": "kirby-plugin",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
