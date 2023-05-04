@@ -1,7 +1,11 @@
 <?php
 
-function attrs($attrs)
+function attrs($attrs = null)
 {
+    if (!$attrs) {
+        return '';
+    }
+
     $attrs = array_map('chainValues', $attrs);
 
     return Html::attr($attrs);
