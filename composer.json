@@ -1,6 +1,6 @@
 {
     "name": "hananils/kirby-attrs-helper",
-    "description": "Helper for Kirby 3 to build attributes based on conditions, like conditionally adding classes to an element.",
+    "description": "Setting attributes on elements in snippets and templates quickly becomes convoluted. This gets worse if attributes require additional logic, like conditionally adding segmented values like classnames or datasets. Attributes helper mitigates this issue by offering a simple interface to set attributes.",
     "type": "kirby-plugin",
     "license": "MIT",
     "version": "1.0.0",
@@ -12,5 +12,6 @@
     ],
     "require": {
         "getkirby/composer-installer": "^1.1"
-    }
+    },
+    "homepage": "https://kirby.hananils.de/plugins/attrs-helper"
 }
