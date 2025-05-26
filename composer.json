@@ -1,9 +1,8 @@
 {
     "name": "hananils/kirby-attrs-helper",
     "description": "Setting attributes on elements in snippets and templates quickly becomes convoluted. This gets worse if attributes require additional logic, like conditionally adding segmented values like classnames or datasets. Attributes helper mitigates this issue by offering a simple interface to set attributes.",
-    "type": "kirby-plugin",
-    "homepage": "https://kirby.hananils.de/plugins/attrs-helper",
     "license": "MIT",
+    "type": "kirby-plugin",
     "version": "1.0.0",
     "authors": [
         {
@@ -11,13 +10,18 @@
             "email": "buero@hananils.de"
         }
     ],
+    "homepage": "https://kirby.hananils.de/plugins/attrs-helper",
     "require": {
-        "getkirby/composer-installer": "^1.1"
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "rector/rector": "^2.0"
     },
     "config": {
-        "optimize-autoloader": true,
         "allow-plugins": {
-            "getkirby/composer-installer": true
-        }
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
     }
 }
