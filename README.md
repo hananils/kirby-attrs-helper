@@ -2,6 +2,9 @@
 
 Setting attributes on elements in snippets and templates quickly becomes convoluted. This gets worse if attributes require additional logic, like conditionally adding segmented values like classnames or datasets. Attributes helper mitigates this issue by offering a simple interface to set attributes.
 
+> [!NOTE]
+> Please check out the online documentation at [kirby.hananils.de/plugins/attrs-helper](https://kirby.hananils.de/plugins/attrs-helper) for further information.
+
 # Usage
 
 Attributes helper takes an associative array with the keys specifying the attribute names and the values specifying the corresponding attribute values. Values can either be static if passed as string or conditional if passed as array.
