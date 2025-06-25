@@ -3,7 +3,7 @@
     "description": "Setting attributes on elements in snippets and templates quickly becomes convoluted. This gets worse if attributes require additional logic, like conditionally adding segmented values like classnames or datasets. Attributes helper mitigates this issue by offering a simple interface to set attributes.",
     "license": "MIT",
     "type": "kirby-plugin",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
