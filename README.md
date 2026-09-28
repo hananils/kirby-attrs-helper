@@ -163,6 +163,10 @@ Where possible, files contain inline annotations. For extended documentation, pl
 - [Conditional classnames](https://kirby.hananils.de/plugins/attrs-helper/conditional-classnames)
 - [Custom separators](https://kirby.hananils.de/plugins/attrs-helper/custom-separators)
 
+### Reference
+
+- [Helpers](https://kirby.hananils.de/plugins/attrs-helper/helpers)
+
 ## License
 
 This plugin is provided freely under the [MIT license](https://kirby.hananils.de/plugins/attrs-helper/license) by [hana+nils · Büro für Gestaltung](https://kirby.hananils.de). We create visual designs for digital and analog media.
